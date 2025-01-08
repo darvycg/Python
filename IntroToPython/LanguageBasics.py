@@ -13,7 +13,7 @@ print(num_lives)
 percent_health = 0.5
 print(percent_health)
 
-player_name = 'Toxos'
+player_name = 'Tacos'
 print(player_name)
 
 player_name = "Spoon"
@@ -44,3 +44,40 @@ print(float("1"))
 print(float(5))
 print(float(False))
 print(float(True))
+
+# Operators
+health = 50
+new_health = health + 20
+print(health)
+health += 20
+print(health)
+
+xPos = 5
+print(xPos % 2)
+print(xPos // 2)
+print(xPos ** 2)
+print(xPos)
+
+first_name = "first"
+last_name = "last"
+print(first_name + " " + last_name)
+
+name = "first"
+name += " last"
+print(name)
+
+print("a" == False)
+print("aa" > "b")
+
+# not
+is_game_over = False
+is_game_over = not is_game_over
+print(is_game_over)
+
+# and
+health = 0
+lives = 1
+print(health <= 0 and lives <= 0)
+
+# or
+print(health <= 0 or lives <= 0)
